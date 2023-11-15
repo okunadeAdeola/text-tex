@@ -1,0 +1,507 @@
+#nav{
+    position: fixed;
+}
+#rotate{
+    animation: rotate 2s linear infinite;
+    position: relative;
+    top: 50px;
+}
+#speaker{
+    position: relative;
+    left: -10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#speaker:hover{
+    text-decoration: underline gold;
+
+}
+#button{
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: goldenrod;
+}
+#butto{
+    position: relative;
+    left: 90px;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 70px;
+    background-color: blue;
+}
+#btto{
+    position: relative;
+    left: 90px;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 70px;
+    background-color: goldenrod;
+}
+#mus{
+    position: relative;
+    width: 400px;
+    border-radius: 15px;
+}
+
+#mar{
+    color: black;
+    border-radius: 12px;
+    margin-top: 20px;
+    
+}
+#mar :hover{
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    transition: 3s;
+    
+}
+#ma{
+    color: black;
+    border-radius: 12px;
+    margin-top: 20px;
+    
+}
+#ma :hover{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    transition: 3s;
+
+    
+}
+#id{
+    font-size: 20px;
+}
+#i{
+    font-size: 15px;
+}
+#image{
+    position: relative;
+    left: 10px;
+    
+}
+#icc{
+    position: relative;
+}
+#tech{
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+}
+#edition{
+    position: relative;
+    top: 60px;
+}
+#line{
+    position: relative;
+    top: 80px;
+    
+}
+#secondline{
+    position: relative;
+    top: 80px;
+}
+#date{
+    position: relative;
+    top: 80px;
+}
+#key{
+    position: relative;
+    top: -30px;
+    left: 60px;
+}
+#gold{
+    position: relative;
+    top: -20px;
+}
+#mtn{
+    animation: mtn 25s linear infinite;
+}
+#ticket{
+    position: relative;
+    background-color: gold;
+    text-decoration: none;
+    color: blue;
+    top: 49px;
+}
+#kiapp{
+    position: relative;
+    left: 120px;
+}
+#kareem{
+    position: relative;
+    left: 100px;
+}
+#oh{
+    position: relative;
+    left: 80px;
+}
+@keyframes mtnn {
+    0%{
+        transform: translate(1100px);
+    }
+    100%{
+        transform: translate(-1080px);
+    }
+}
+
+@keyframes mtn {
+    0%{
+        transform: translate(1100px);
+    }
+    100%{
+        transform: translate(-1080px);
+    }
+}
+
+@keyframes rotate {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+}
+#form{
+    position: relative;
+    left: 660px;
+    bottom: 39px;
+}
+#about{
+    position: relative;
+}
+#mtnn{
+    animation: mtnn 25s linear infinite;
+}
+#margin{
+    position: relative;
+}
+#demon{
+    position: relative;
+    width: 240px;
+}
+#demo{
+    position: relative;
+    width: 240px;
+}
+#phone{
+    position: relative;
+    width: 240px;
+}
+#galore{
+    position: relative;
+}
+#larva{
+    animation: larva 25s linear infinite;
+}
+@keyframes larva {
+    0%{
+        transform: translate(1100px);
+    }
+    100%{
+        transform: translate(-1200px);
+    }
+}
+#logi{
+    position: relative;
+    left: 80px;
+}
+#patch{
+    position: relative;
+    left: 210px;
+}
+#progital{
+    position: relative;
+    left: 310px;
+}
+
+#head{
+    position: relative;
+    width: 240px;
+}
+#body{
+    position: relative;
+    width: 240px;
+}
+#karee{
+    position: relative;
+    top: -40px;
+    left: 70px;
+}
+#community{
+    position: relative;
+}
+#contact{
+    position: relative;
+}
+#poly{
+    animation: poly 25s linear infinite;
+    
+}
+@keyframes poly {
+    0%{
+        transform: translate(1100px);
+    }
+    100%{
+        transform: translate(-1400px);
+    }
+}
+
+#error{
+    text-decoration: none;
+    color: white;
+}
+#mouse{
+    position: relative;
+    width: 240px;
+}
+#power{
+    position: relative;
+    width: 240px;
+}
+#mood{
+    position: relative;
+}
+#wire{
+    position: relative;
+    width: 240px;
+}
+#mt{
+    position: relative;
+    width: 240px;
+}
+#mx{
+    position: relative;
+    width: 240px;
+}
+
+@media screen and (max-width:478px) {
+    #image{
+        font-size:20px
+    }
+    #margin{
+        position: relative;
+        top: 600px;
+        left: -600px;
+        width: 100px;
+    }
+    #head{
+        position: relative;
+        top: 1780px;
+        width: 170px;
+    }
+    #body{
+        position: relative;
+        top: 2080px;
+        width: 170px;
+        left: -340px;
+    }
+    #media{
+        position: relative;
+        top: 3420px;
+    }
+    #larva{
+        position: relative;
+        top: 3500px;
+    }
+    #mar{
+        position: relative;
+        top: 2200px;
+        right: 46px;
+        width: 320px;
+        height: 400px;
+        background-color: white;
+    }
+    #mouse{
+        position: relative;
+        top: 1500px;
+        width: 170px;
+    }
+    #mtn{
+        position: relative;
+        top: 3250px;
+    }
+    #twitter{
+        position: relative;
+        top: 3600px;
+    }
+    #mtnn{
+        position: relative;
+        top: 3460px;
+    }
+    #mood{
+        position: relative;
+        top: 3390px;
+    }
+    #power{
+        position: relative;
+        top: 1750px;
+        width: 170px;
+        left: -340px;
+    }
+    #galore{
+        position: relative;
+        top: 3340px;
+        width: 330px;
+        height: 300px;
+    }
+    #poly{
+        position: relative;
+        top: 3560px;
+        font-size: 15px;
+        width: 50px;
+    }
+    #community{
+        position: relative;
+        top: 3560px;
+        font-size: 15px;
+    }
+    #mus{
+        position: relative;
+        top: 2660px;
+        width: 300px;
+        left: -410px;
+    }
+    #partners{
+        position: relative;
+    }
+    
+    #human{
+        position: relative;
+        top: 700px;
+        
+    }
+    #long{
+        width: 100px;
+    }
+   
+    #mt{
+        position: relative;
+        top: 1490px;
+        width: 170px;
+        left: -370px;
+    }
+    #mx{
+        position: relative;
+        top: 1240px;
+        width: 170px;
+    }
+   #ma{
+    position: relative;
+    top: 1720px;
+    left: -380px;
+    width: 300px;
+   }
+
+    #boot{
+        top: 2100px;
+        position: relative;
+    }
+    #boo{
+        position: relative;
+        top: 2200px;
+    }
+    #wire{
+        position: relative;
+        top: 1200px;
+        left: -350px;
+        width: 170px;
+    }
+    #phone{
+        position: relative;
+        top: 930px;
+        width: 170px;
+    }
+    #demo{
+        position: relative;
+        left: -340px;
+        top: 250px;
+        width: 170px;
+    }
+    #demon{
+        position: relative;
+        width: 170px;
+    }
+    #gold{
+        position: relative;
+        top: -40px;
+        left: -670px;
+    }
+    #primary{
+        position: relative;
+        top: 700px;
+    }
+    #iccc{
+        position: relative;
+        top: 650px;
+        width: 340px;
+        height: 300px;
+    }
+    #icc{
+        position: relative;
+        top: 650px;
+    }
+    
+    #about{
+        position: relative;
+        top: 220px;
+    }
+    #date{
+        position: relative;
+        left: -20px;
+        top: 230px;
+    }
+    #ticket{
+        /* border: 100%; */
+        position: relative;
+        top: 190px;
+        text-align: center;
+
+    }
+    #venue{
+        position: relative;
+        top: 170px;
+        left: -20px;
+    }
+    #form{
+        position: relative;
+        left: 00px;
+        top: 190px;
+        width: 400px;
+    }
+    #secondline{
+        position: relative;
+        top: 230px;
+        right: 120px;
+        width: 10px
+    }
+    #rotate{
+        position: relative;
+        top: 140px;
+        left: 140px;
+    }
+    #line{
+        width: 200px;
+        margin-left: 30px;
+        position: relative;
+        top: 90px;
+    }
+    #speaker{
+        display: none;
+    }
+    #tech{
+        width: 340px;
+    }
+    #edition{
+        width: 90px;
+        position: relative;
+        top: 90px;
+    }
+}
